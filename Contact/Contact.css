@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../Team/Image/nature.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.tab
+{
+    margin-top: 25px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 320px;
+}
+.tab p
+{
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 40px 20px 40px;
+    cursor: pointer;
+}
+
+.tab p a{
+    color: #fff;
+    text-decoration: none;
+}
+.tab a:hover
+{
+    color: rgb(79, 126, 255);
+}
+.tab p:hover{
+    color: rgb(79, 126, 255);
+}
+
+
+/* *******************  */
+.info{
+    margin-top: 130px;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: rgba(61, 57, 57, 0.295);
+    color: #fff;
+    padding: 40px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* contacts details */
+.contacts{
+    background-color: rgb(56, 19, 19);
+    color: rgb(129, 129, 129);
+    text-align: justify;
+    margin-top: 88px;
+    padding: 40px;
+    font-size: 20px;
+}
+.contacts .images{
+    text-align: center;
+}
+.contacts .images img{
+    width: 50px;
+    border-radius: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.Profile{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 40px;
+}
+.Profile .content{
+    text-align: center;
+}
+
+.Profile .content a{
+    text-decoration: none;
+    color: rgb(225, 255, 118);
+}

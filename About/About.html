@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="About.css">
+</head>
+<body>
+
+    <div class="tab">
+        <p><a href="../Main.html">Home</a></p>
+        <p><a href="../About/About.html">About</a></p>
+        <p><a href="../Register/Register.html">Payment</a></p>
+        <p><a href="../Team/Team.html">Team</a></p>
+        <p><a href="../Contact/Contact.html">Contact</a></p>
+        <p><a href="../Login and signup/Login.html">Login</a></p>
+        <p><a href="../Login and signup/Signup.html">Sign Up</a></p>
+    </div>
+
+    
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <section>
+        <h2>About Us</h2>
+        <p>
+            In today's busy and stressful generation, everyone wants his or her work to be done easily whether the work is to clean the house or it is to walk. Most people, especially our young ones are stressed or busy in some kind of hectic work, for these people we are giving them a platform to release their stress and make their work little bit enjoyable and could feel relaxed. The way to make them feel relaxed is movie bookings. Lots of people waste their time in movie bookings, to save customer’s precious time and for fast service we are providing the best site for them by which they can book their movie tickets anytime when it's required and also at affordable prices. <br><br>
+            We have created this website to make the things easier for everyone who is willing to book their seat as soon as possible according to their choice. We people provide this facility to choose thier seat according to them, in which quality they wanted to watch the movie accordingly they have to pay for it. <br><br>
+            For example,<br><br>
+            If you want to watch movie in 480p quality so you have to pay only 500 rupees.<br>
+            If you want to watch movie in 720p quality so you have to pay only 1000 rupees.<br>
+            If you want to watch movie in 1080p quality so you have to pay only 1500 rupees.<br><br>
+            The main objective of the Project on Movies Booking Management System is to manage the details of different types of bookings like bookings of movie tickets, its seats at back, front or middle, special booking is also provided. The purpose of the project is to build a website or an application program to reduce the manual work for managing the Bookings of Movie Tickets. and also the customer’s details and payments details also. </br>
+            We hope that you have enjoyed the whole site so if you like this please let us know about it Thankyou Very much.</p>
+    </section>
+
+
+    <script>
+        let progress= document.getElementById('progressbar')
+        let totalHeight =document.body.scrollHeight-window.innerHeight;
+        window.onscroll = function(){
+            let progressHeight = (window.pageYOffset/totalHeight)*100;
+
+            progress.style.height = progressHeight + "%";
+        }
+    </script>
+</body>
+</html>

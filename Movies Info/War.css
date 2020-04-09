@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Tab editing is done here */
+.tab
+{
+    margin-top: 25px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 320px;
+    
+}
+.tab p
+{
+    float: left;
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    padding: 20px 40px 20px 40px;
+    cursor: pointer;
+}
+
+.tab p a{
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+}
+.tab p:hover
+{
+    color: rgb(79, 126, 255);
+}
+.tab p a:hover
+{
+    color: rgb(79, 126, 255);
+}
+
+
+/* About the movie info */
+
+.pic{
+    margin-top: 120px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: rgb(248, 64, 64);
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 10px -6px 3px rgb(80, 79, 79);
+    
+}
+.pic img{
+    width: 600px;
+    border: black solid 2px;
+    border-radius: 10px;
+    filter: saturate(30%);
+    filter: saturate(30px);
+}
+
+/* Release date setting */
+
+
+.release-date{
+    color: #fff;
+    background-image: radial-gradient(red, black);
+    text-align: center;
+    font-size: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 30px;
+}
+.release-date p{
+    border-bottom-left-radius: 30px;
+    backdrop-filter: blur(100px);
+}
+
+/* Cast setting here */
+.information{
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.cast
+{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 2px 50px / 60px;
+    text-align: center;
+    
+}
+.cast .head
+{
+    font-size: 40px;
+    background-color: rgba(207, 203, 200, 0.404);
+    display: block;
+    width: 100%;
+    border-radius: 2px 50px / 60px;
+
+}
+.cast p {
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 1px;
+    padding-left: 80px;
+
+}
+
+/* Sinopsis editing is done here */
+.synopsis{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.synopsis span{
+    text-align: center;
+    background-color: crimson;
+    color: #fff;
+    display: block;
+    font-size: 50px;
+    border-top-left-radius: 40px;
+}
+.synopsis p{
+    text-align: justify;
+    font-size: 20px;
+    color: #fff;
+    padding: 40px;
+    height: 400px ;
+    background-color: black;
+    overflow-y: scroll;
+    border-bottom-left-radius: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* contacts details */
+.contacts{
+    background-color: rgb(56, 19, 19);
+    color: rgb(129, 129, 129);
+    margin-top: 40px;
+    text-align: justify;
+    padding: 40px;
+    font-size: 20px;
+}
+.contacts .images{
+    text-align: center;
+}
+.contacts .images img{
+    width: 50px;
+    border-radius: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.Profile{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 40px;
+}
+.Profile .content{
+    text-align: center;
+}
+
+.Profile .content a{
+    text-decoration: none;
+    color: rgb(225, 255, 118);
+}

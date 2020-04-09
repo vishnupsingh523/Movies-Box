@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creators</title>
+    <link rel="stylesheet" href="Team.css">
+</head>
+<body>
+
+    <div class="tab">
+        <p><a href="../Main.html">Home</a></p>
+        <p><a href="../About/About.html">About</a></p>
+        <p><a href="../Register/Register.html">Register</a></p>
+        <p><a href="../Team/Team.html">Team</a></p>
+        <p><a href="../Contact/Contact.html">Contact</a></p>
+        <p><a href="../Login and signup/Login.html">Login</a></p>
+        <p><a href="../Login and signup/Signup.html">Sign Up</a></p>
+    </div>
+    
+
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <section>
+        <h2>Creators Information</h2>
+    </section>
+    <div class="container">
+        <div class="card">
+            <div class="imgBox">
+                <img src="Image/Sumit.PNG"width="350px">
+            </div>
+            <div class="details">
+                <h2>Sumit Pradhan</h2><br>
+                <br>
+                <p>Persuing B Tech Computer Science Engineering at Lovely Professional University<br><br>
+                Very good at web development<br><br>
+                I am Programmer and I have made <br>some of the things while making<br> this website.<br><br>
+                https://www.instagram.com/<br>_sumit_pradhan_
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBox">
+                <img src="Image/Divya.jpeg">
+            </div>
+            <div class="details">
+                <h2>Divya Sharma</h2><br><br>
+                <p>
+                    Metal club|coordinator|event manager<br><br>
+                    Persuing B Tech Computer Science Engineering at Lovely Professional University<br><br>
+                    I am Designer and I have designed some of the things while making this website.<br><br>
+                https://www.linkedin.com/in/divya-sharma-72897b192<br>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBox">
+                <img src="Image/Vishnu.jpg" width="400px" height="400px">
+            </div>
+            <div class="details">
+                <h2>Vishwanath Pratap Singh</h2>
+                <p>
+                    Social Worker | Boxer | Programmer<br><br>
+                    I have created many things in this project to make this project successful.<br><br>
+                    <br><br>A person who tries his best to find himself different from the crowd of billions of people. He always helps others. He is courteous and does hard-work with smartness. He always thinks big and tries to achieve all those.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        let progress= document.getElementById('progressbar')
+        let totalHeight =document.body.scrollHeight-window.innerHeight;
+        window.onscroll = function(){
+            let progressHeight = (window.pageYOffset/totalHeight)*100;
+
+            progress.style.height = progressHeight + "%";
+        }
+    </script>
+</body>
+</html>

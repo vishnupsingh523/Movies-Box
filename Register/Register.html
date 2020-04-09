@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+<body>
+    <div class="tab">
+        <p><a href="../Main.html">Home</a></p>
+        <p><a href="../About/About.html">About</a></p>
+        <p><a href="../Register/Register.html">Register</a></p>
+        <p><a href="../Team/Team.html">Team</a></p>
+        <p><a href="../Contact/Contact.html">Contact</a></p>
+        <p><a href="../Login and signup/Login.html">Login</a></p>
+        <p><a href="../Login and signup/Signup.html">Sign Up</a></p>
+    </div>
+
+    <div class="Register">
+        <div class="top">
+            <p>Payment Form</p>
+        </div>
+        <label>Movie Name :</label><br>
+        <input id="movie" type="text" placeholder="Movie Name">
+        <br>
+        <label>Place Name :</label><br>
+        <input id="place" type="text" placeholder="Place Name">
+        <br>
+        <label for="select">Price :</label><br>
+        <select>
+            <option class="price" value="500">500 (for 480p)</option>
+            <option class="price" value="1000">1000 (for 720p)</option>
+            <option class="price" value="1500">1500 (for 1080p)</option>
+        </select>
+        <br>
+        <label>Tickets :</label><br>
+        <input id="ticket" type="number" placeholder="Number of tickets">
+        <br>
+        <label>Seat Place :</label>
+        <br>
+        <div class="seat">
+            <input type="radio" name="seat">Front seat</input><br>
+            <input type="radio" name="seat">Middle seat</input><br>
+            <input type="radio" name="seat">Last seat</input><br>
+        </div>
+        <div class="submit">
+            <button type="submit" onclick="palert()">Submit</button>
+        </div>
+
+    </div>
+
+    <script>
+        function palert(){
+            var movie= document.getElementById("movie").value;
+            if(movie==="")
+            {
+                alert("Error Please fill the box");
+            }
+            else
+            {
+                alert("Your Ticket is succesfully booked");
+            }
+        }
+
+    </script>
+</body>
+</html>

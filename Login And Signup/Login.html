@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBox- Login</title>
+    <link rel="stylesheet" href="Login.css">
+
+</head>
+<body>
+    <div class="tab">
+        <p><a href="../Main.html">Home</a></p>
+        <p><a href="../About/About.html">About</a></p>
+        <p><a href="../Register/Register.html">Register</a></p>
+        <p><a href="../Team/Team.html">Team</a></p>
+        <p><a href="../Contact/Contact.html">Contact</a></p>
+        <p><a href="../Login and signup/Login.html">Login</a></p>
+        <p><a href="../Login and signup/Signup.html">Sign Up</a></p>
+    </div>
+
+    <div class="main">
+        <p>Login</p>
+    <form class="form_text">
+        <!--label is used to bind with the form-->
+        <label >Username:</label><br>
+        <input id="Name" type="text"> <br><br>     
+        <label>Password:</label><br>
+        <input id="Pass" type="password"><br><br>
+
+        <div class="submit-f">
+        <button type="submit" onclick="getdata()">Submit</button>
+        <button><a href="../Login And Signup/Signup.html" onclick="return signup()">Sign Up</a></button>
+        </div>
+    </form>
+</div>
+
+
+
+
+<script>
+
+    function getdata(){
+        var username=document.getElementById("Name").value;
+        var password=document.getElementById("Pass").value;
+        document.write(`Username : ${username}  Password : ${password}`);
+    }
+
+    function signup(){
+        var username=document.getElementById("Name").value;
+        var password=document.getElementById("Pass").value;
+        if(username!=""&&password!="")
+        {
+            alert("You are successfully logged in to the system.");
+            return 1;
+        }
+        else
+        {
+            alert("The Username or Password is Incorrect!!!");
+            return false;
+        }
+    }
+</script>
+</body>
+</html>

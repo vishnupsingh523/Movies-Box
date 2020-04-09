@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="Sign.css">
+</head>
+<body>
+
+    <div class="tab">
+        <p><a href="../Main.html">Home</a></p>
+        <p><a href="../About/About.html">About</a></p>
+        <p><a href="../Register/Register.html">Register</a></p>
+        <p><a href="../Team/Team.html">Team</a></p>
+        <p><a href="../Contact/Contact.html">Contact</a></p>
+        <p><a href="../Login and signup/Login.html">Login</a></p>
+        <p><a href="../Login and signup/Signup.html">Sign Up</a></p>
+    </div>
+
+    
+    <div class="main">
+        <p>Sign Up</p>
+        <form class="form_text">
+            <!--label is used to bind with the form-->
+            <label>First Name:</label><br>
+            <input type="text" class="change"> <br><br>     
+            <label>Last name:</label><br>
+            <input type="text"class="change"><br><br>
+            <label>Gender:</label><br>
+            <div class="allgender">
+                <input type="radio" name="Gender" class="gender">Male</input><br>
+                <input type="radio" name="Gender"class="gender">Female</input><br>
+                <input type="radio" name="Gender" class="gender">Prefer not to say</input><br><br>
+        
+            </div>
+            <label>Contact:</label><br>
+            <input type="number" class="change"><br><br>
+            <label>Email Address:</label><br>
+            <input id="username" type="text" class="change"><br><br>
+            <label>Password:</label><br>
+            <input id="password" type="password" class="change"><br><br>
+       </form>
+    </div>
+
+    <script>
+//   document.getElementById('submit').addEventListener('click',submit)
+
+//   function submit(){
+//         var email= document.getElementById('username').value;
+//         var password=document.getElementById('password').value;
+//         var message=document.getElementById('thoughts').value;
+
+       // firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+  // Handle Errors here.
+ // var errorCode = error.code;
+ // var errorMessage = error.message;
+  // ...
+//  });
+
+
+    }
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(247, 244, 112, 0.801),rgba(4, 124, 4, 0.534));
+}
+.main{
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background:#fff;
+    font-family: cursive;
+}
+.main p{
+    text-align: center;
+    font-size: 30px;
+}
+.form_text{
+    
+    padding:10px 20px;
+}
+.form_text select{
+    font-family: cursive;
+    background-color: rgba(158, 155, 155, 0.863);
+}
+.form_text textarea{
+    font-family: cursive;
+}
+.form_text .submit-f{
+    text-align: center;
+}
+.form_text .submit-f button{
+    font-family: cursive;
+    background-color: lightblue;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* setting the video at the top of the page*/
+.b-video video
+{
+    position: relative;
+    width: 1519px;
+    z-index: 0;
+    text-align: center;
+    
+}
+
+
+.main-content
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 250px;
+    margin-left: 550px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+}
+
+.tab
+{
+    margin-top: 25px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 320px;
+}
+.tab p
+{
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 40px 20px 40px;
+    cursor: pointer;
+}
+
+.tab p a{
+    color: #fff;
+    text-decoration: none;
+}
+.tab p:hover
+{
+    color: rgb(79, 126, 255);
+}
+/* setting the latest movies tag*/
+
+.info-header{
+    font-size: 60px;
+    color:#fff;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+/* Setting the information of the movies */
+
+
+
+.movies-info .info
+{
+    padding: 40px;
+    margin-top: 10px;
+    background-color: rgba(8, 8, 8, 0.932);
+}
+
+.movies-info .info img
+{
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.movies-info .info .info-content
+{
+    float: left;
+    width: 815px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(139, 125, 40);
+}
+.movies-info .info p
+{
+    text-align: left;
+    height: 260px;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+    margin-bottom:10px;
+}
+
+.movies-info .info .info-content a
+{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 40px 10px 40px;
+    box-sizing: border-box;
+    background-color: rgb(255, 220, 105);
+    border-radius: 10em;
+}
+
+.movies-info .info .info-content a:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+}

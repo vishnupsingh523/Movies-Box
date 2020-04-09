@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("Images/scene.png");
+    width: 1536px;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+/*This is the setting of the main tab at the top of the page*/
+.tab
+{
+    margin-top: 25px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 320px;
+}
+.tab p
+{
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 40px 20px 40px;
+    cursor: pointer;
+}
+
+.tab p a{
+    color: #fff;
+    text-decoration: none;
+}
+.tab a:hover
+{
+    color: rgb(79, 126, 255);
+}
+.tab p:hover{
+    color: rgb(79, 126, 255);
+}
+
+/* -------------------- */
+
+.main{
+    margin-top: 200px;
+    margin-left: 450px;
+    margin-right: 450px;
+    background:rgba(45, 46, 46, 0.795);
+    font-family: cursive;
+    border-radius: 10px;
+}
+.main p{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    font-family: 'Trebuchet MS';
+}
+.form_text{
+    padding:30px 50px;
+    border-radius: 10px;
+    
+}
+
+.form_text .submit-f{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.form_text label{
+    margin-left: 100px;
+    font-size: 20px;
+}
+.form_text input{
+    padding: 10px;
+    border-radius:10px;
+    font-size: 15px;
+    font-family:cursive;
+    background-color: rgba(71, 70, 70, 0);
+    border: none;
+    border-bottom: grey solid 2px;
+    width: 300px;
+    color: #fff;
+    margin-left: 100px;
+}
+.form_text .submit-f button{
+    font-family: cursive;
+    background-color: rgba(70, 71, 71, 0.568);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.form_text .submit-f a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.form_text .submit-f button:hover{
+    background-color: rgba(133, 134, 131, 0.582);
+}

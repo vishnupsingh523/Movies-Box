@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("images/Avengers.png");
+}
+/* Setting of heading starts form here */
+.tab
+{
+    margin-top: 25px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 320px;
+}
+.tab p
+{
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 40px 20px 40px;
+    cursor: pointer;
+}
+
+.tab p a{
+    color: #fff;
+    text-decoration: none;
+}
+.tab p:hover
+{
+    color: rgb(79, 126, 255);
+}
+
+.tab p a:hover{
+    color: rgb(79, 126, 255);
+}
+/* Setting of header end here */
+
+
+/* Form for SIGNING UP ANY FILE STARTS FROM HERE */
+.main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background:rgba(136, 135, 135, 0.699);
+    font-family: cursive;
+}
+.main p{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background-color: rgb(255, 220, 105);
+}
+
+.main label
+{
+    font-size: 20px;
+}
+.main .change
+{
+    font-size: 15px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 15px;
+    border: none;
+    border-bottom: grey solid 2px;
+    border-radius: 10px;
+    background:none;
+}
+.main label, .change {
+    margin-left: 140px;
+    
+}
+
+.form_text{
+    
+    padding:10px 20px;
+}
+.form_text select{
+    font-family: cursive;
+    background-color: rgba(158, 155, 155, 0.863);
+}
+.form_text .submit-f{
+    text-align: center;
+}
+
+.allgender
+{
+    margin-left: 160px;
+    font-size: 20px;
+}
+
+.allgender input{
+    margin-top: 15px;
+}
